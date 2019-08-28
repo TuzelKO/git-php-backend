@@ -1,0 +1,22 @@
+{
+    "name": "tuzelko/git-php-backend",
+    "description": "Git PHP back-end - run git-http-backend as CGI from PHP.",
+    "keywords": ["git", "cgi", "server", "git-http-backend"],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Eugene Frost",
+            "email": "tuzelko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GitPHP\\": "src/GitPHP/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "monolog/monolog": "^1.17"
+    }
+}
