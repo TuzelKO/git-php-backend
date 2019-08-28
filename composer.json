@@ -8,6 +8,10 @@
         {
             "name": "Eugene Frost",
             "email": "tuzelko@gmail.com"
+        },
+        {
+        	"name": "Christian Sciberras",
+        	"email": "christian@sciberras.me"
         }
     ],
     "autoload": {
