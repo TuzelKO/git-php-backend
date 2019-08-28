@@ -7,3 +7,7 @@ Just try:
 2. Create an instance of the GitPHPBackend class.
 3. Call the "exec" method.
 4. You have personal Git server!
+
+```bash
+composer require tuzelko/git-php-backend
+```
