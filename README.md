@@ -4,7 +4,7 @@ This library implements the work of git-http-backend from the php environment, t
 
 Just try:
 1. Authorize your user using the engine methods.
-2. Create an instance of the GitPHPBackend class.
+2. Create an instance of the GitPHP\Backend class.
 3. Call the "exec" method.
 4. You have personal Git server!
 

@@ -5,7 +5,7 @@ namespace GitPHP;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
 
-class PHPGitBackend {
+class Backend {
 
     private $cmd = "/usr/lib/git-core/git-http-backend";
 
