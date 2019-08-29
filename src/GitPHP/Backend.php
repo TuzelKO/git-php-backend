@@ -3,6 +3,7 @@
 namespace GitPHP;
 
 use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
 use Psr\Log\LoggerInterface;
 
 class Backend {
@@ -75,7 +76,8 @@ class Backend {
     private function getLogger() {
 
         if (!isset($this->logger)) {
-            $this->logger = new Logger('php://stderr', Logger::NOTICE);
+            $this->logger = new Logger("Git-Backend");
+            $this->logger->pushHandler(new StreamHandler('php://stderr', Logger::NOTICE));
         }
 
         return $this->logger;
